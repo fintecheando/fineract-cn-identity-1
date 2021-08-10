@@ -42,7 +42,7 @@ endpoints:
 
 cassandra:
   clustername: datacenter1
-  contactPoints: 10.0.2.2:9042
+  contactPoints: cassandra:9042
   keyspace: seshat
 
 connpool:
